@@ -5,10 +5,11 @@ Writing Microbit data to a database
 Write a forever loop using the micropython editor and flash it to your Microbit.
 https://python.microbit.org/v/2 
 
-from microbit import *
-while True:
-   print(temperature())
-   sleep(1000)
+<i>from microbit import *<br>
+while True:<br>
+   print(temperature())<br>
+   sleep(1000)<br>
+   </i>
  
 Keep the microbit plugged in to the USB port
 The print statement will write to the serial port when the microbit is  plugged in.
